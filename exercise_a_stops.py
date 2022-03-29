@@ -18,6 +18,7 @@ stops.remove(stops[2])
 #7. Print the number of stops there are in the list
 print(len(stops))
 #8. Sort the list alphabetically
+print(sorted(stops))
 #9. Reverse the positions of the stops in the list
 #10 Print out all the stops using a for loop
 
