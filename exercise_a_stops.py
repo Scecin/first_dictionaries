@@ -23,5 +23,5 @@ print(sorted(stops))
 #9. Reverse the positions of the stops in the list
 print(sorted(stops, reverse=True))
 #10 Print out all the stops using a for loop
-
-print(stops)
+for stop in stops:
+    print(stop)
