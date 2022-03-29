@@ -23,6 +23,16 @@ for number in range(len(numbers) - 1):
 #    
 #    So [11, 6, 4, 99, 7, 11] would have sum of 22
 
+total = 0
+add = True
+a = 6
+b = 7
+
+for number in numbers:
+    if number !=a and add == True:
+        total = total + number
+       
+print(total)
 
 # 5. HARD! Print the sum of the numbers. 
 #    Except the number 13 is very unlucky, so it does not count.
