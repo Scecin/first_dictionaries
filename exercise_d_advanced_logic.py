@@ -1,6 +1,6 @@
 # For the following list of numbers:
 
-numbers = [1, 6, 2, 2, 7, 1, 6, 13, 99, 7]
+numbers = [1,6, 2, 2, 7, 1, 6, 13, 99, 7]
 
 # 1. Print out a list of the even integers:
 for number in numbers:
@@ -24,13 +24,12 @@ for number in range(len(numbers) - 1):
 #    So [11, 6, 4, 99, 7, 11] would have sum of 22
 
 total = 0
-add = True
-a = 6
-b = 7
 
-for number in numbers:
-    if number !=a and add == True:
-        total = total + number
+for number in range(len(numbers) - 1):
+        if numbers[number] == numbers[1]:
+            total = total
+        else:
+            total += number
        
 print(total)
 
@@ -41,6 +40,15 @@ print(total)
 #
 #    So [5, 13, 2] would have sum of 5. 
 
+total = 0
+
+for x in range(len(numbers) - 1):
+    for number in numbers:
+        if numbers[x] == 13:
+            total = total
+        else:
+            total +=number
+print(total)
 
 
 
