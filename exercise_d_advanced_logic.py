@@ -8,6 +8,9 @@ for number in numbers:
     print(number)
 
 # 2. Print the difference between the largest and smallest value:
+largest_value = max(numbers)
+smallest_value = min(numbers)
+print(largest_value - smallest_value)
 
 
 # 3. Print True if the list contains a 2 next to a 2 somewhere.
